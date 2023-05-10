@@ -10,6 +10,7 @@ require("dotenv").config();
 
 const JWT_SECRET = process.env.JWT_SECRET;
 
+
 router.get("/", (req, res) => {
   console.log("on api/auth req sent");
   console.log(req.body);

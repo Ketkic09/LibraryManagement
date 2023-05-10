@@ -19,4 +19,5 @@ app.get('/', (req, res) => {
 
 //registering routes
 app.use('/api/auth',require('./routes/auth'))
+app.use('/api/books',require('./routes/books'))
 //app.use('/api/newauth',require('./routes/newauth'))
